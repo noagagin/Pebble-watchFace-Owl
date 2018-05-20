@@ -1,0 +1,42 @@
+{
+    "author": "noa@wiz1str.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "owl",
+    "pebble": {
+        "displayName": "OWL",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/IMAGE_BACKGROUNDowl.png",
+                    "name": "IMAGE_BACKGROUND",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/menu.png",
+                    "menuIcon": true,
+                    "name": "menu",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "1ce19050-6503-4bfd-9828-eba40e1579db",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.2.0"
+}
